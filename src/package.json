@@ -1,0 +1,24 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "views/main.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "title": "Calculator Classy",
+    "icon": "assets/icon.png",
+    "toolbar": true,
+    "width": 305,
+    "height": 445,
+    "max_width": 305,
+    "max_height": 445,
+    "min_width": 305,
+    "min_height": 445,
+    "position": "center"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

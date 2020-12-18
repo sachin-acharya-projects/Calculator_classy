@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+            background: #e9e5e5;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .contents {
+    width: 300px;
+    background: #e9e5e5;
+  }
+  
+  .screen {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .screen .lineHistory {
+    padding: 10px 0;
+    width: 100%;
+    color: #b3b1b1;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .screen .lineHistory .history {
+    width: 100%;
+  }
+  
+  .screen .entry_input {
+    height: 40px;
+    width: 100%;
+    line-height: 50px;
+    font-family: "Roboto", sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    font-size: 20px;
+  }
+  
+  .buttons {
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  
+  .buttons .rows {
+    width: 100%;
+    padding: 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 5px 0;
+  }
+  
+  .buttons .rows button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+  .buttons .rows button:focus {
+    -webkit-animation: bounce 0.6s;
+            animation: bounce 0.6s;
+  }
+  
+  @-webkit-keyframes bounce {
+    from {
+      font-size: 20px;
+    }
+    to {
+      font-size: 14px;
+    }
+  }
+  
+  @keyframes bounce {
+    from {
+      font-size: 20px;
+    }
+    to {
+      font-size: 14px;
+    }
+  }
+  
+  .def {
+    background: #fff;
+  }
+  
+  .numbs {
+    background: none;
+  }
+  
+  .operator {
+    background: #009297;
+  }
+  
+  .equals {
+    background: #d3c11c;
+  }
+  
+  .add {
+    background: rgba(255, 38, 0, 0.815);
+    font-size: 19px;
+  }
+  
+  .minus {
+    background: rgba(171, 26, 238, 0.836);
+  }
+  
+  .times {
+    background: rgba(4, 197, 187, 0.849);
+  }
+  
+  .rowFive {
+    display: block;
+  }
+  
+  .rowFive .zero {
+    width: 203px !important;
+    border-radius: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .hiddenInput {
+    color: red;
+    font-size: 16px;
+    display: none;
+  }
+  
+  .mod {
+    background: #fff !important;
+  }
+  /*# sourceMappingURL=style.css.map */
